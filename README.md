@@ -52,7 +52,7 @@ O projeto explora boas práticas de desenvolvimento frontend, combinando estrutu
 
 ## 🌐 Deploy
 
-Se publicado:
+Se publicado: https://quizsmash.vercel.app/
 
 ---
 
