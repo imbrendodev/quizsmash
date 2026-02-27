@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+        <link rel="shortcut icon" href="/assets/brain.webp" type="image/x-icon">
+    <title>QuizSmash - Pergunta 2</title>
+</head>
+
+<body class="bg-[#4b23ff] text-black antialiased :text-white">
+    <main class="min-h-screen py-10 px-4 md:px-8 flex flex-col items-center">
+
+        <section class="w-full max-w-4xl mb-10">
+            <div
+                class="bg-white p-6 sm:p-8 border-[4px] border-black shadow-[8px_8px_0_0_#000000] flex flex-col sm:flex-row gap-6 items-start sm:items-center justify-between">
+                <h2 class="font-black text-xl sm:text-2xl md:text-3xl uppercase leading-snug">
+                    2 - Quem escreveu “Dom Quixote”?
+                </h2>
+                <div
+                    class="bg-[#CCFF00] border-[4px] border-black px-4 py-2 shadow-[4px_4px_0_0_#000000] font-black text-xl whitespace-nowrap shrink-0">
+                    02 / 05
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full max-w-4xl flex flex-col gap-6">
+
+            <button id="1" onclick="pergunta02(1)"
+                class="w-full text-left bg-white border-[4px] border-black shadow-[8px_8px_0_0_#000000] hover:shadow-[0px_0px_0_0_#000000] hover:translate-x-[8px] hover:translate-y-[8px] transition-all duration-150 ease-out flex group cursor-pointer outline-none focus:bg-[#f4f4f4]">
+                <span
+                    class="bg-[#FF00F4] text-white border-r-[4px] border-black p-4 sm:p-6 font-black text-2xl sm:text-3xl flex items-center justify-center min-w-[60px] sm:min-w-[80px]">A</span>
+                <span
+                    class="p-4 sm:p-6 font-bold text-lg sm:text-xl flex-1 items-center flex group-hover:bg-[#f4f4f4] transition-colors">
+                    William Shakespeare
+                </span>
+            </button>
+
+            <button id="2" onclick="pergunta02(3)"
+                class="w-full text-left bg-white border-[4px] border-black shadow-[8px_8px_0_0_#000000] hover:shadow-[0px_0px_0_0_#000000] hover:translate-x-[8px] hover:translate-y-[8px] transition-all duration-150 ease-out flex group cursor-pointer outline-none focus:bg-[#f4f4f4]">
+                <span
+                    class="bg-[#00FFFF] text-black border-r-[4px] border-black p-4 sm:p-6 font-black text-2xl sm:text-3xl flex items-center justify-center min-w-[60px] sm:min-w-[80px]">B</span>
+                <span
+                    class="p-4 sm:p-6 font-bold text-lg sm:text-xl flex-1 items-center flex group-hover:bg-[#f4f4f4] transition-colors">
+                    Gabriel García Márquez
+                </span>
+            </button>
+
+            <button id="3" onclick="pergunta02(3)"
+                class="w-full text-left bg-white border-[4px] border-black shadow-[8px_8px_0_0_#000000] hover:shadow-[0px_0px_0_0_#000000] hover:translate-x-[8px] hover:translate-y-[8px] transition-all duration-150 ease-out flex group cursor-pointer outline-none focus:bg-[#f4f4f4]">
+                <span
+                    class="bg-[#CCFF00] text-black border-r-[4px] border-black p-4 sm:p-6 font-black text-2xl sm:text-3xl flex items-center justify-center min-w-[60px] sm:min-w-[80px]">C</span>
+                <span
+                    class="p-4 sm:p-6 font-bold text-lg sm:text-xl flex-1 items-center flex group-hover:bg-[#f4f4f4] transition-colors">
+                    Miguel de Cervantes
+                </span>
+            </button>
+
+            <button id="4" onclick="pergunta02(4)"
+                class="w-full text-left bg-white border-[4px] border-black shadow-[8px_8px_0_0_#000000] hover:shadow-[0px_0px_0_0_#000000] hover:translate-x-[8px] hover:translate-y-[8px] transition-all duration-150 ease-out flex group cursor-pointer outline-none focus:bg-[#f4f4f4]">
+                <span
+                    class="bg-[#FF6B00] text-white border-r-[4px] border-black p-4 sm:p-6 font-black text-2xl sm:text-3xl flex items-center justify-center min-w-[60px] sm:min-w-[80px]">D</span>
+                <span
+                    class="p-4 sm:p-6 font-bold text-lg sm:text-xl flex-1 items-center flex group-hover:bg-[#f4f4f4] transition-colors">
+                    Machado de Assis
+                </span>
+            </button>
+
+        </section>
+
+
+
+    </main>
+
+    <script src="/src/script/main.js"></script>
+</body>
+
+</html>
